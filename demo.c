@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../include/mbase64.h"
+#include "mbase64.h"
 
 int main(int argc, char** argv) {
 
