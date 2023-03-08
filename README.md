@@ -1,8 +1,6 @@
 # madbase64
 ## A Lightning-fast singe-header base64 encoder/decoder written in C
 
-## New versions (C++) [moved here](https://github.com/maddsua/lambda/blob/main/src/base64.cpp)
-
 ## The purpose:
 
 Encoding/decoding large sizes binary data. Yes, binary. I mean files, images and actually anything
@@ -25,7 +23,7 @@ This one could be one of the fastest base64 enc/decoder implementation. Or it's 
 
 ---
 
-Console demo output:
+Demo result:
 ```
 Original:       This is a simple test string
 Encoded:        VGhpcyBpcyBhIHNpbXBsZSB0ZXN0IHN0cmluZw==
@@ -34,9 +32,3 @@ Decoded:        This is a simple test string
 Generated valid base64 string
 Done with no errors
 ```
-
----
-
-[👉 The header file you're looking for](include/mbase64.h)
-
-[👉 Usage demo](demo/demo.c) / [.exe file](demo/demo.exe.gz)
